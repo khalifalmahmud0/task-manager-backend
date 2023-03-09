@@ -1,6 +1,6 @@
 const { express } = require("../helpers/packages");
 const { signup, login, update } = require("../controllers/UserController");
-const { verifyAuth } = require("../middlewares/middleware");
+const { verifyAuth } = require("../middlewares/Middleware");
 const {
 	create,
 	statusUpdate,
